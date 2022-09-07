@@ -1,0 +1,75 @@
+body {
+    background-color: #dddacf;
+    margin: 4rem;
+}
+
+.btn.collapsed, .btn:link, .btn:visited {
+    background-color: #dddacf !important;
+    color: #575c5a !important;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    border-radius: 25% 10%;
+    font-family: fantasy;
+    font-size: 24px;
+    font-weight: 400;
+    vertical-align: middle;
+}
+
+
+.btn:hover, .btn:active, .btn:not(.collapsed) {
+    background-color: #d1d0c8 !important;
+    color: #554f47 !important;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    border-radius: 25% 10%;
+    font-family: fantasy;
+    font-size: 24px;
+    font-weight: 400;
+    vertical-align: middle;
+}
+
+.breadcrumb, .card {
+    background-color: #dddacf;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: fantasy;
+    font-size: 18px;
+    font-weight: 200;
+    color: #554f47;
+}
+
+.text-reset {
+    color: #554f47;
+    font-weight: 100;
+}
+
+.text-reset:hover {
+    color: #252b2d;
+    font-weight: 100;
+    text-decoration: underline;
+}
+
+.active {
+  color: #000;
+  text-decoration: none;
+}
+
+.jumbotron {
+    background-color: #d1d0c8;
+    color: #554f47;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 2rem 1rem;
+    text-align: left;
+    font-family: monospace;
+    border-radius: 30px;
+}
+
+@media screen and (max-width:375px) {
+    p, h1 {
+    font-size: 90% !important;
+    }
+}
